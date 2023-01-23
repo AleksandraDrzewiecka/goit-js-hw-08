@@ -2,6 +2,7 @@ import throttle from 'lodash.throttle';
 const form = document.querySelector('form');
 const formMessage = document.querySelector('textarea[name=message]');
 const formEmail = document.querySelector('input[name=email]');
+
 const LOCALSTORAGE_KEY = 'feedback-form-state';
 
 window.addEventListener('load', () => {
